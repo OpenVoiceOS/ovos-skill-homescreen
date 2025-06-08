@@ -1,12 +1,12 @@
 # Changelog
 
-## [3.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-homescreen/tree/3.0.2a1) (2024-11-19)
+## [3.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-homescreen/tree/3.0.3a1) (2025-01-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-homescreen/compare/3.0.1...3.0.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-homescreen/compare/3.0.2...3.0.3a1)
 
 **Merged pull requests:**
 
-- fix:allow workshop 3.0.0 [\#142](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/142) ([JarbasAl](https://github.com/JarbasAl))
+- fix automations [\#145](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/145) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
