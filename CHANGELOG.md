@@ -1,12 +1,20 @@
 # Changelog
 
-## [3.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-homescreen/tree/3.0.3a1) (2025-01-25)
+## [3.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-homescreen/tree/3.0.3a2) (2026-06-16)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-homescreen/compare/3.0.2...3.0.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-homescreen/compare/3.0.3...3.0.3a2)
 
 **Merged pull requests:**
 
-- fix automations [\#145](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/145) ([JarbasAl](https://github.com/JarbasAl))
+- chore: add missing shared CI workflows [\#161](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/161) ([JarbasAl](https://github.com/JarbasAl))
+- chore\(ovos-skill-homescreen\): allow ovos-workshop\<9.0.0 [\#159](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/159) ([JarbasAl](https://github.com/JarbasAl))
+- chore\(deps\): update stefanzweifel/git-auto-commit-action action to v7 [\#156](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/156) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency ovos-workshop to v8 [\#155](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/155) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/setup-python action to v6 [\#153](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/153) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency python to 3.14 [\#150](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/150) ([renovate[bot]](https://github.com/apps/renovate))
+- chore: Configure Renovate [\#149](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/149) ([renovate[bot]](https://github.com/apps/renovate))
+- update pypi name [\#148](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/148) ([builderjer](https://github.com/builderjer))
+- fix: skill\_id [\#147](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/147) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
