@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos_skill_homescreen"
+dynamic = ["version"]
+description = "OVOS skill plugin"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Aix", email = "aix.m@outlook.com"}]
+keywords = ["ovos", "skill", "plugin"]
+dependencies = [
+    "ovos-utils>=0.0.38,<1.0.0",
+    "ovos-workshop>=8.0.0,<9.0.0",
+    "ovos-date-parser>=0.0.3,<1.0.0",
+    "ovos-bus-client>=1.0.0,<3.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+    "ovos-plugin-manager>=2.1.0,<3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-homescreen"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-homescreen.openvoiceos" = "ovos_skill_homescreen:OVOSHomescreenSkill"
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_skill_homescreen.version.__version__"}
+
+[tool.setuptools]
+packages = ["ovos_skill_homescreen"]
+
+[tool.setuptools.package-dir]
+ovos_skill_homescreen = "."
+
+[tool.setuptools.package-data]
+ovos_skill_homescreen = ["*.json", "locale/**/*", "gui/**/*"]

@@ -4,13 +4,13 @@ from os.path import dirname
 from ovos_workshop.skill_launcher import PluginSkillLoader, SkillLoader
 from ovos_plugin_manager.skills import find_skill_plugins
 from ovos_utils.messagebus import FakeBus
-from skill_ovos_homescreen import OVOSHomescreenSkill
+from ovos_skill_homescreen import OVOSHomescreenSkill
 
 
 class TestSkillLoading(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.skill_id = "skill-ovos-homescreen.openvoiceos"
+        self.skill_id = "ovos-skill-homescreen.openvoiceos"
         self.path = dirname(dirname(dirname(__file__)))
 
     def test_from_class(self):
