@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.4a2](https://github.com/OpenVoiceOS/ovos-skill-homescreen/tree/3.0.4a2) (2026-08-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-homescreen/compare/3.0.4a1...3.0.4a2)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#166](https://github.com/OpenVoiceOS/ovos-skill-homescreen/pull/166) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [3.0.4a1](https://github.com/OpenVoiceOS/ovos-skill-homescreen/tree/3.0.4a1) (2026-06-20)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-homescreen/compare/3.0.3a2...3.0.4a1)
