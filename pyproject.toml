@@ -22,7 +22,11 @@ dependencies = [
 test = [
     "pytest",
     "pytest-cov",
+    "pytest-timeout",
     "ovos-plugin-manager>=2.1.0,<3.0.0",
+    # ovoscope-driven suite in test/end2end/ -- see test/conftest.py, which
+    # skips that directory entirely when ovoscope is not installed.
+    "ovoscope>=1.0.1a1",
 ]
 
 [project.urls]
