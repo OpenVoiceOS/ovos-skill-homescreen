@@ -23,6 +23,7 @@ test = [
     "pytest",
     "pytest-cov",
     "ovos-plugin-manager>=2.1.0,<3.0.0",
+    "ovoscope>=1.5.0",
 ]
 
 [project.urls]
